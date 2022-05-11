@@ -10,8 +10,8 @@ const resolveLink = (url) => {
   return url.replace("ipfs://", "https://gateway.ipfs.io/ipfs/");
 };
 
-const collectionAddress = "0xA58A1Bb27eb2CDcc6B54c0cb4f9F6866206F9dfC"; //Collection Address Here
-const collectionName = "PharaGods NFT"; //CollectioonName Here
+const collectionAddress = "0xec7fC79200BB531C99DFC5a60064d3E35a389845"; //Collection Address Here
+const collectionName = "KONGZ-OFFICIAL"; //CollectioonName Here
 
 async function generateRarity() {
   const NFTs = await Moralis.Web3API.token.getAllTokenIds({

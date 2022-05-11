@@ -101,7 +101,7 @@ function HomePage() {
             placeholder="Select Collection"
             onChange={(e) => collectionChanged(e)}
           >
-            <option value="PharaGods NFT">PharaGods NFT</option>
+            <option value="KONGZ-OFFICIAL">KONGZ-OFFICIAL NFT</option>
           </Select>
           <Search
             style={{ width: "250px" }}
